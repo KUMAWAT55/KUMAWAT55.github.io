@@ -2,29 +2,42 @@
 <html>
     <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <style>
-body{	
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center center;
-    background-attachment: fixed;
-}
-h1 {
-    color : white;
-    text-align:center;
-
-}
-p{
-font-family : verdana;
-font-size=20px;
-}
-
-</style>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<img src="background.jpg" style="width:100%;height:auto;opacity:0.6;">
+<style>
+.navbar {
+  width: 100%;
+  background-color: transparent;
+  overflow: auto;
+}
+body{
+background-image:url("background.jpg");
+ background-repeat:repeat-x;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  opacity:5; 	
+}
 
-<h1>My First CSS Example</h1>
-<p>Thirrrrrs is a paragraph.</p>
+
+
+.navbar a {
+  float: left;
+  padding: 17px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+</style>
+<div class="navbar">
+  <a class="active" href="#"><i class="fa fa-fw fa-home" style="color:yellow"></i>Home</a> 
+  <a href="#"><i class="fa fa-code-fork"></i> Code Shop</a> 
+  <a href="#"><i class="fa fa-fw fa-envelope"></i>About</a> 
+  <a href="#"><i class="fa fa-fw fa-user"></i>Resume</a>
+  <a href="#"><i class="fa fa-bookmark"></i> Blog</a>
+  <a href="#"><i class="fa fa-address-book-o"></i> Contact</a>
+</div>
+<body>
+
 
     </body>
     </html>
